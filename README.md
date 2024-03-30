@@ -12,8 +12,8 @@ Mathematically, the functional is defined as follows.
 
 ![equation](https://latex.codecogs.com/png.latex?F(\phi)&space;=&space;\mu&space;\Bigg\(\int_\Omega&space;\left&space;|&space;\nabla&space;H(\phi)&space;\right&space;|dx&space;\Bigg\)^p&plus;\nu&space;\int_\Omega&space;H(\phi)dx&space;\\&space;&plus;\lambda_1&space;\int_\Omega&space;\left&space;|&space;I-c_1&space;\right&space;|^2&space;H(\phi)&space;dx&space;&plus;\lambda_2&space;\int_\Omega&space;\left&space;|&space;I-c_2&space;\right&space;|^2&space;(1-H(\phi))&space;dx)
 
-where H is a Heaviside function, I is an image, and c1, c2 are the
-averages of the image in the regions where φ > 0 and φ < 0 respectively.
+where $H$ is a Heaviside function, $I$ is an image, and $c_1$, $c_2$ are the
+averages of the image in the regions where $\phi > 0$ and $\phi < 0$ respectively.
 
 To minimize this functional, we use Level Set Method. If you want more detalis, see the [paper](https://pdfs.semanticscholar.org/48fa/5314ec19ae0b55084e64e51af8918100b6c4.pdf).
 
